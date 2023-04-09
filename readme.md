@@ -3,7 +3,7 @@
 Team members: 吳紹睿(b08901113), 林家弘(b08901112)
 
 We implement 2 services:
-1. Heartrate: Send BPM value
+1. Heart rate: Send BPM value.
 2. Button: The value is initially 0x00. If the user button falls, send 0x01. If the user button falls, send 0x00.
 
 STM device name: Fake device
@@ -16,7 +16,7 @@ Usage:
 5. Get the values of the services
 
 Received message: (Fig. 1)
-* 0000180d-0000-1000-8000-00805f9b34fb \<Heartrate BPM value\>
+* 0000180d-0000-1000-8000-00805f9b34fb \<Heart rate BPM value\>
 * 0000180d-0000-1000-8000-00805f9b34fb \<Button value\>
 
   
