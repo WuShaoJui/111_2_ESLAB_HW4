@@ -1,14 +1,23 @@
+#111_2_ESLAB_HW4
 
+Team members: 吳紹睿(b08901113), 林家弘(b08901112)
 
+We implement 2 services:
+1. Heartrate: Send BPM value
+2. Button: The value is initially 0x00. If the user button falls, send 0x01. If the user button falls, send 0x00.
 
-1. You should see the heart rate value change every half second.<br/>For ST BLE Profile, it begins at 60, goes up to 100 (in steps of 1), resets to 60 and so on.
+* STM device name: Fake device
 
-    ![](img/notifications_ble_profile.png)
+* Usage:
+1. Run mbed-os-ESLAB-HW4 on STM
+2. Run Central_RPi.py on RPi
+3. Search the number of the device name "Fake device"
+4. Input the number
+5. Get the values of the services
 
-    **figure 6.a** Notifications view using ST BLE Profile 2.0.0
+* Received message: (Fig. 1)
+0000180d-0000-1000-8000-00805f9b34fb <Heartrate BPM value>
+0000180d-0000-1000-8000-00805f9b34fb <Button value>
 
-    For Master Control Panel, it begins at 100, goes up to 175 (in steps of 1), resets to 100 and so on.
-
-    ![](img/screenshot.jpg)
-
-    **figure 6.b** Notifications view using Master Control Panel 4.0.5
+![](img/screenshot.jpg)
+**Fig. 1** Screen shot
