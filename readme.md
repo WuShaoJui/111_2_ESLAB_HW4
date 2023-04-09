@@ -19,6 +19,7 @@ Received message: (Fig. 1)
 * 0000180d-0000-1000-8000-00805f9b34fb <Heartrate BPM value>
 * 0000180d-0000-1000-8000-00805f9b34fb <Button value>
 
-![](img/screenshot.jpg)
   
+![](img/screenshot.jpg)
+
 **Fig. 1** Screen shot
