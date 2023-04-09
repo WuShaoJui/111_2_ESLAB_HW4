@@ -9,6 +9,6 @@
 
     For Master Control Panel, it begins at 100, goes up to 175 (in steps of 1), resets to 100 and so on.
 
-    ![](img/screenshot.png)
+    ![](img/screenshot.jpg)
 
     **figure 6.b** Notifications view using Master Control Panel 4.0.5
